@@ -1,0 +1,8 @@
+pypdf
+requests
+mammoth
+pypandoc_binary
+PyGithub
+pypandoc
+pdfminer
+pdfminer.six
