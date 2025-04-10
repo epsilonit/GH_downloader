@@ -14,7 +14,7 @@ if not os.path.exists(path):
     os.makedirs(path)
 
 i = False
-f = False
+f = True
 m = True
 
 # ISSUES
