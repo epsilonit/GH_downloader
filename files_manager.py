@@ -104,12 +104,12 @@ def run(github_access):
                         files += 1
 
                     # JSON
-                    elif ext == 'json':
-                        result = manage_json(file_content)
-                        with open(path + file_content.name.split('.')[0] + '.md', "w", encoding="utf-8") as markdown_file:
-                            markdown_file.write(result)
-                        markdown_file.close()
-                        files += 1
+                    # elif ext == 'json':
+                    #    result = manage_json(file_content)
+                    #    with open(path + file_content.name.split('.')[0] + '.md', "w", encoding="utf-8") as markdown_file:
+                    #        markdown_file.write(result)
+                    #    markdown_file.close()
+                    #    files += 1
                 except Exception:
                     print(Exception)
                     print(file_content.name)
